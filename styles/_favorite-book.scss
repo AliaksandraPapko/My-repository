@@ -1,0 +1,19 @@
+.favorite-book {
+    border: 2px solid rgb(87, 83, 83);
+    padding: 50px;
+    border-radius: 25%;
+    transition: all 0.5s;
+    &:not(:last-child) {
+        margin-right: 55px;
+    }
+    &:hover {
+        transform: scale(1.1);
+        background-color: rgb(229, 198, 216);
+    }
+    &__item {
+        img {
+            width: 100%;
+            max-width: 200px;
+        }
+    }
+}

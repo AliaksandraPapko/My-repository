@@ -1,0 +1,12 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    &__link {
+        &:hover {
+            border-bottom: 1px solid;
+        }
+        &:not(:last-child) {
+            margin-right: 25px;
+        }
+    }
+}

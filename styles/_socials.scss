@@ -1,0 +1,14 @@
+.socials {
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.10);
+    &__link {
+        font-size: 2rem;
+        transition: all 0.5s;
+        &:not(:last-child) {
+            margin-right: 25px;
+        }
+        i:hover {
+            transform: scale(1.5);
+        }
+    }
+}
